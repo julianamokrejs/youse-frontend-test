@@ -1,0 +1,111 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+  }
+  
+.wrapper {
+  margin: 2rem auto;
+  width: 70%;
+}
+
+.react-bs-table-bordered {
+  border: 0px solid transparent!important;
+  border-radius: 8px!important;
+  box-shadow: rgba(47, 57, 65, 0.16) 0px 2px 16px 0px;
+}
+
+.react-bs-container-header.table-header-wrapper {
+  border-radius: 8px 8px 0 0;
+}
+
+thead tr {
+  background-color: rgb(132, 46, 176);
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+tr td {
+  font-size: 13px;
+  color: rgb(47, 57, 65);
+}
+
+.form-control {
+  outline: none;
+  margin: 0 2rem 2rem 0;
+  border-top: 0;
+  border-bottom: 1px solid #f59331;
+  border-left: 0;
+  border-right: 0;
+  border-radius: 0;
+  color: #f59331;
+  padding: 15px 0 5px;
+  border-radius: 0;
+}
+
+.react-bs-table-no-data {
+  color: #fff;
+  background-color: #f59331;
+  border: 1px solid #f59331;
+}
+
+.form-control::placeholder {
+  color: #f59331;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-top: 0;
+  border-bottom: 2px solid #f59331;
+  border-left: 0;
+  border-right: 0;
+  border-radius: 0;
+}
+
+.dropdown-menu {
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(47, 57, 65, 0.16) 0px 2px 16px 0px;
+}
+
+button#pageDropDown {
+  color: #fff;
+  background-color: rgb(132, 46, 176);
+  border-color: rgb(132, 46, 176);
+  font-size: 14px;
+}
+
+button#pageDropDown:focus {
+  box-shadow: none;
+}
+
+.dropdown-menu a {
+  color: rgb(132, 46, 176);
+  font-size: 13px;
+}
+
+.page-item.active .page-link {
+  background-color: rgb(132, 46, 176);
+  border-color: rgb(132, 46, 176);
+  font-size: 14px;
+}
+
+.page-link {
+  position: relative;
+  display: block;
+  padding: .5rem .75rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: rgb(132, 46, 176);
+  background-color: #fff;
+  border: 1px solid rgb(132, 46, 176);
+  font-size: 14px;
+}
+
+.page-link:hover {
+  z-index: 2;
+  color: rgb(132, 46, 176);
+  text-decoration: none;
+  background-color: #e9ecef;
+  border-color: rgb(132, 46, 176);
+}
+  
